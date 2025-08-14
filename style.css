@@ -285,3 +285,27 @@ dialog::backdrop {
   font-size: 1rem;
   margin-bottom: 2rem;
 }
+
+
+@media (max-width: 768px) {
+  .note-actions {
+    opacity: 1;
+    visibility: visible;
+    position: static;
+    margin-top: 1rem;
+  }
+
+  .header-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .header-actions button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  h1{
+    font-size: 1.6rem;
+  }
+}
